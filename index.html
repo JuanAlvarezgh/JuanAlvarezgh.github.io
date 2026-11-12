@@ -12,8 +12,8 @@
   <meta property="og:image" content="https://juanalvarezgh.github.io/img/vista-previa.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="estilos.css?v=5">
-  <script src="app.js?v=5" defer></script>
+  <link rel="stylesheet" href="estilos.css?v=6">
+  <script src="app.js?v=6" defer></script>
 </head>
 <body>
 
@@ -25,9 +25,9 @@
     <h1>Juan Carlos Álvarez Arias</h1>
     <p class="perfil__cargo">Ingeniería de datos, análisis de datos y geoanalítica</p>
     <p class="perfil__texto">
-      Profesional en formación de Ingeniería de Datos y Software, enfocado en ingeniería y análisis de datos.
-      Construyo pipelines de datos con Python, SQL, Apache Airflow y dbt, diseño bodegas de datos y convierto
-      la información en decisiones con estadística, análisis geoespacial y tableros en Power BI.
+      Analista e ingeniero de datos con un año de experiencia en SOMAR Ingeniería S.A.S. y estudiante de Ingeniería
+      de Datos y Software. Construyo pipelines con Python, SQL, Apache Airflow y dbt, administro bases de datos
+      PostgreSQL/PostGIS y convierto la información en decisiones con estadística, análisis geoespacial y Power BI.
     </p>
 
     <div class="botones">
@@ -39,7 +39,8 @@
     </div>
 
     <nav class="indice" aria-label="Secciones">
-      <a href="#proyectos" class="activo"><span class="indice__linea"></span>Proyectos</a>
+      <a href="#experiencia" class="activo"><span class="indice__linea"></span>Experiencia</a>
+      <a href="#proyectos"><span class="indice__linea"></span>Proyectos</a>
       <a href="#competencias"><span class="indice__linea"></span>Competencias</a>
       <a href="#formacion"><span class="indice__linea"></span>Educación e idiomas</a>
       <a href="#contacto"><span class="indice__linea"></span>Contacto</a>
@@ -77,12 +78,37 @@
   <!-- Derecha: proyectos y detalle -->
   <main class="contenido">
 
-    <ul class="cifras" aria-label="Cifras de mis proyectos">
+    <ul class="cifras" aria-label="Cifras de mi experiencia y proyectos">
       <li><strong>1,36 M</strong><span>medidores asignados a su manzana</span></li>
       <li><strong>82.030</strong><span>observaciones de arriendo integradas</span></li>
       <li><strong>62.941</strong><span>detecciones satelitales procesadas</span></li>
-      <li><strong>7.º</strong><span>semestre de Ingeniería de Datos y Software</span></li>
+      <li><strong>1 año</strong><span>de experiencia como analista e ingeniero de datos</span></li>
     </ul>
+
+    <section id="experiencia" class="seccion">
+      <div class="seccion__cabecera">
+        <p class="sobretitulo">Experiencia laboral</p>
+        <h2>Donde he trabajado con datos.</h2>
+      </div>
+      <article class="proyecto aparece">
+        <header class="proyecto__cabecera">
+          <span class="proyecto__numero" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></svg>
+          </span>
+          <div>
+            <h3>Analista de datos / Ingeniero de datos</h3>
+            <p class="meta">SOMAR Ingeniería S.A.S. | Enero 2026 - Noviembre 2026</p>
+          </div>
+        </header>
+        <ul class="etiquetas"><li>PostgreSQL</li><li>PostGIS</li><li>GeoPandas</li><li>Python</li><li>SQL</li><li>Power BI</li></ul>
+        <ul class="puntos">
+          <li>Administré bases de datos PostgreSQL y PostGIS: modelado, consultas, permisos, respaldos y optimización del rendimiento.</li>
+          <li>Realicé análisis geoespacial con PostGIS y GeoPandas para los proyectos de la empresa y lo presenté en mapas temáticos.</li>
+          <li>Construí procesos ETL en Python y SQL para integrar, limpiar y validar datos de distintas fuentes.</li>
+          <li>Desarrollé tableros en Power BI y análisis estadísticos y predictivos para apoyar la toma de decisiones.</li>
+        </ul>
+      </article>
+    </section>
 
     <section id="proyectos" class="seccion">
       <div class="seccion__cabecera">
