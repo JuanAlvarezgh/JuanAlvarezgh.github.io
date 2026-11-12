@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juan Carlos Álvarez Arias | Ingeniería y análisis de datos</title>
+  <meta name="description" content="Portafolio de Juan Carlos Álvarez Arias: ingeniería de datos, análisis de datos y geoanalítica en Medellín, Colombia.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Juan Carlos Álvarez Arias | Ingeniería y análisis de datos">
+  <meta property="og:description" content="Pipelines de datos, análisis estadístico y mapas interactivos. Proyectos, hoja de vida y contacto.">
+  <meta property="og:url" content="https://juanalvarezgh.github.io/">
+  <meta property="og:image" content="https://juanalvarezgh.github.io/img/vista-previa.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="estilos.css?v=5">
+  <script src="app.js?v=5" defer></script>
+</head>
+<body>
+
+<div class="pagina">
+
+  <!-- Izquierda: mis datos -->
+  <header class="perfil">
+    <p class="perfil__lugar"><span class="punto"></span>Portafolio | Bello, Colombia</p>
+    <h1>Juan Carlos Álvarez Arias</h1>
+    <p class="perfil__cargo">Ingeniería de datos, análisis de datos y geoanalítica</p>
+    <p class="perfil__texto">
+      Profesional en formación de Ingeniería de Datos y Software, enfocado en ingeniería y análisis de datos.
+      Construyo pipelines de datos con Python, SQL, Apache Airflow y dbt, diseño bodegas de datos y convierto
+      la información en decisiones con estadística, análisis geoespacial y tableros en Power BI.
+    </p>
+
+    <div class="botones">
+      <a class="boton boton--principal" href="Juan-Carlos-Alvarez-Arias-Hoja-de-Vida.pdf" download>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>
+        Descargar hoja de vida
+      </a>
+      <a class="boton" href="Juan-Carlos-Alvarez-Arias-Hoja-de-Vida.pdf" target="_blank" rel="noopener">Ver PDF</a>
+    </div>
+
+    <nav class="indice" aria-label="Secciones">
+      <a href="#proyectos" class="activo"><span class="indice__linea"></span>Proyectos</a>
+      <a href="#competencias"><span class="indice__linea"></span>Competencias</a>
+      <a href="#formacion"><span class="indice__linea"></span>Educación e idiomas</a>
+      <a href="#contacto"><span class="indice__linea"></span>Contacto</a>
+    </nav>
+
+    <ul class="contacto-rapido">
+      <li>
+        <a href="mailto:jnc.alvarez19@gmail.com">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          jnc.alvarez19@gmail.com
+        </a>
+      </li>
+      <li>
+        <a href="https://wa.me/573052111480" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+          +57 305 211 1480
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/juanalvarezgh" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>
+          linkedin.com/in/juanalvarezgh
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/JuanAlvarezgh" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1.5-4-2-6-2.5m12 5v-3.5a3 3 0 0 0-1-2.5c3 0 6-1.5 6-6.5a5 5 0 0 0-1.5-3.5 4.5 4.5 0 0 0 0-3.5s-1.2-.3-3.7 1.4a13 13 0 0 0-6.6 0C6.7 1.7 5.5 2 5.5 2a4.5 4.5 0 0 0 0 3.5A5 5 0 0 0 4 9c0 5 3 6.5 6 6.5a3 3 0 0 0-1 2.5V22"/></svg>
+          github.com/JuanAlvarezgh
+        </a>
+      </li>
+      <li class="estado"><span class="estado__punto"></span>Disponibilidad inmediata</li>
+    </ul>
+  </header>
+
+  <!-- Derecha: proyectos y detalle -->
+  <main class="contenido">
+
+    <ul class="cifras" aria-label="Cifras de mis proyectos">
+      <li><strong>1,36 M</strong><span>medidores asignados a su manzana</span></li>
+      <li><strong>82.030</strong><span>observaciones de arriendo integradas</span></li>
+      <li><strong>62.941</strong><span>detecciones satelitales procesadas</span></li>
+      <li><strong>7.º</strong><span>semestre de Ingeniería de Datos y Software</span></li>
+    </ul>
+
+    <section id="proyectos" class="seccion">
+      <div class="seccion__cabecera">
+        <p class="sobretitulo">Proyectos destacados</p>
+        <h2>Datos reales, de la extracción al hallazgo.</h2>
+      </div>
+
+      <article class="proyecto aparece">
+        <header class="proyecto__cabecera">
+          <span class="proyecto__numero">01</span>
+          <div>
+            <h3>Mercado de arriendos de Medellín</h3>
+            <p class="meta">Proyecto | 2026</p>
+          </div>
+        </header>
+        <button class="proyecto__imagen" type="button" data-ampliar="img/arriendos-mapa.webp" aria-label="Ampliar mapa de arriendos">
+          <img src="img/arriendos-mapa.webp" width="1600" height="956"
+               alt="Mapa satelital de Medellín con los avisos de arriendo coloreados por precio por metro cuadrado">
+        </button>
+        <ul class="etiquetas"><li>Python</li><li>PostgreSQL</li><li>Web scraping</li><li>Estadística espacial</li><li>Streamlit</li></ul>
+        <ul class="puntos">
+          <li>Pipeline que extrae y limpia más de 17.000 avisos de arriendo y los cruza con barrios, comunas y el Plan de Ordenamiento Territorial.</li>
+          <li>El arriendo subió 32 % entre 2023 y 2026, y cerca del metro el metro cuadrado es más barato en estratos altos.</li>
+          <li>Aplicación web con mapa interactivo, buscador por barrio e indicador de precio justo para cada aviso.</li>
+        </ul>
+        <figure class="proyecto__extra">
+          <button class="proyecto__imagen" type="button" data-ampliar="img/arriendos-pot.webp" aria-label="Ampliar mapa del POT">
+            <img src="img/arriendos-pot.webp" width="1600" height="956" loading="lazy"
+                 alt="Mapa de los tratamientos urbanos del POT de Medellín sobre imagen satelital">
+          </button>
+          <figcaption>Vista del POT: qué permite la norma en cada polígono y qué pasa con el arriendo ahí.</figcaption>
+        </figure>
+        <p class="enlaces"><a href="https://github.com/JuanAlvarezgh/arriendo-medellin" target="_blank" rel="noopener">Ver código en GitHub <span aria-hidden="true">→</span></a></p>
+      </article>
+
+      <article class="proyecto aparece">
+        <header class="proyecto__cabecera">
+          <span class="proyecto__numero">02</span>
+          <div>
+            <h3>Focos de incendio en Colombia</h3>
+            <p class="meta">Proyecto | 2026</p>
+          </div>
+        </header>
+        <button class="proyecto__imagen" type="button" data-ampliar="img/incendios.webp" aria-label="Ampliar tablero de incendios">
+          <img src="img/incendios.webp" width="1600" height="956" loading="lazy"
+               alt="Tablero con el mapa de los focos de calor satelitales en Colombia y el histograma de su intensidad">
+        </button>
+        <ul class="etiquetas"><li>Python</li><li>GeoPandas</li><li>SciPy</li><li>NASA VIIRS</li></ul>
+        <ul class="puntos">
+          <li>62.941 detecciones satelitales de incendio unidas, limpiadas y recortadas al territorio colombiano con análisis espacial.</li>
+          <li>El 61 % de los focos de 2026 se concentró en febrero y marzo; los de día son cuatro veces más intensos.</li>
+          <li>Los 561 incendios más extremos, identificados con un modelo estadístico y mostrados en un tablero web con mapa interactivo.</li>
+        </ul>
+      </article>
+
+      <article class="proyecto aparece">
+        <header class="proyecto__cabecera">
+          <span class="proyecto__numero">03</span>
+          <div>
+            <h3>Consumo de energía por manzana</h3>
+            <p class="meta">Proyecto | 2026</p>
+          </div>
+        </header>
+        <button class="proyecto__imagen" type="button" data-ampliar="img/energia.webp" aria-label="Ampliar mapa de energía">
+          <img src="img/energia.webp" width="1600" height="956" loading="lazy"
+               alt="Mapa del Valle de Aburrá con el consumo promedio de energía de cada manzana en tonos de verde">
+        </button>
+        <ul class="etiquetas"><li>Python</li><li>GeoPandas</li><li>Shapely</li><li>Datos Esri</li></ul>
+        <ul class="puntos">
+          <li>1.362.005 medidores asignados a las 22.000 manzanas censales del Valle de Aburrá.</li>
+          <li>Una regla de cercanía al borde de la manzana subió la cobertura del 66 % al 95,7 %.</li>
+          <li>Asignación validada contra el censo: 0,91 medidores por vivienda censada.</li>
+        </ul>
+        <p class="enlaces"><a href="https://github.com/JuanAlvarezgh/consumo-energia-valle-aburra" target="_blank" rel="noopener">Ver código en GitHub <span aria-hidden="true">→</span></a></p>
+      </article>
+
+      <article class="proyecto aparece">
+        <header class="proyecto__cabecera">
+          <span class="proyecto__numero">04</span>
+          <div>
+            <h3>MRA: observatorio inmobiliario del Valle de Aburrá</h3>
+            <p class="meta">Proyecto | 2026</p>
+          </div>
+        </header>
+        <div class="panel-cifras">
+          <div><strong>82.030</strong><span>observaciones de arriendo integradas</span></div>
+          <div><strong>71.277</strong><span>registros limpios para modelado</span></div>
+          <div><strong>15,8 %</strong><span>error medio del modelo de precio en Medellín</span></div>
+        </div>
+        <ul class="etiquetas"><li>Python</li><li>PostgreSQL/PostGIS</li><li>FastAPI</li><li>Next.js</li><li>XGBoost</li><li>Docker</li></ul>
+        <ul class="puntos">
+          <li>Plataforma de inteligencia inmobiliaria con análisis territorial, mercado de arriendos y portal de consulta para el Valle de Aburrá.</li>
+          <li>Pipeline reproducible con trazabilidad y controles de calidad, desde las fuentes públicas hasta la capa lista para modelar.</li>
+          <li>Modelos de precio con validación temporal y por barrio; XGBoost con explicaciones SHAP de cada predicción.</li>
+        </ul>
+      </article>
+
+      <div class="mas aparece">
+        <p class="sobretitulo">Más proyectos en GitHub</p>
+        <div class="tarjetas">
+          <a class="tarjeta" href="https://github.com/JuanAlvarezgh/worldbank-elt-pipeline" target="_blank" rel="noopener">
+            <span class="tarjeta__tipo">Ingeniería de datos</span>
+            <strong>Pipeline ELT del Banco Mundial</strong>
+            <span class="tarjeta__texto">Extracción en Python, carga idempotente en PostgreSQL, modelo en estrella con dbt y orquestación con Airflow.</span>
+          </a>
+          <a class="tarjeta" href="https://github.com/JuanAlvarezgh/streamflow" target="_blank" rel="noopener">
+            <span class="tarjeta__tipo">Ingeniería de datos</span>
+            <strong>Streaming en tiempo real</strong>
+            <span class="tarjeta__texto">Kafka y Spark Structured Streaming agregan transacciones por ventanas de tiempo hacia PostgreSQL.</span>
+          </a>
+          <a class="tarjeta" href="https://github.com/JuanAlvarezgh/creditlens" target="_blank" rel="noopener">
+            <span class="tarjeta__tipo">Machine learning</span>
+            <strong>Scoring crediticio</strong>
+            <span class="tarjeta__texto">Kafka, dbt, MLflow, FastAPI y Streamlit de punta a punta; AUC-ROC de 0,856.</span>
+          </a>
+          <a class="tarjeta" href="https://github.com/JuanAlvarezgh/dq-sentinel" target="_blank" rel="noopener">
+            <span class="tarjeta__tipo">Ingeniería de datos</span>
+            <strong>Calidad de datos</strong>
+            <span class="tarjeta__texto">Validaciones declarativas sobre un data warehouse, reportes, histórico y alertas, orquestado con Airflow.</span>
+          </a>
+          <a class="tarjeta" href="https://github.com/JuanAlvarezgh/olist-bi-analytics" target="_blank" rel="noopener">
+            <span class="tarjeta__tipo">Análisis de datos</span>
+            <strong>Analítica de e-commerce</strong>
+            <span class="tarjeta__texto">Modelo dimensional en estrella con dbt sobre PostgreSQL y capa de métricas de negocio.</span>
+          </a>
+          <a class="tarjeta" href="https://github.com/JuanAlvarezgh/demand-forecasting" target="_blank" rel="noopener">
+            <span class="tarjeta__tipo">Análisis de datos</span>
+            <strong>Pronóstico de demanda</strong>
+            <span class="tarjeta__texto">Series de tiempo con SARIMA y Holt-Winters, validación temporal e intervalos de predicción.</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="competencias" class="seccion">
+      <div class="seccion__cabecera">
+        <p class="sobretitulo">Competencias técnicas</p>
+        <h2>Con qué trabajo.</h2>
+      </div>
+      <div class="competencias">
+        <div class="competencia aparece">
+          <div class="competencia__icono"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></div>
+          <h3>Ingeniería de datos</h3>
+          <ul class="fichas"><li>SQL (PostgreSQL, SQL Server, MySQL)</li><li>Python</li><li>ETL/ELT</li><li>Apache Airflow</li><li>dbt</li><li>Kafka</li><li>Spark</li><li>Modelado dimensional</li><li>Data warehouse</li><li>APIs REST</li><li>Web scraping</li><li>Calidad de datos</li></ul>
+        </div>
+        <div class="competencia aparece">
+          <div class="competencia__icono"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10m6 10V4m6 16v-7m4 7H2"/></svg></div>
+          <h3>Análisis de datos y BI</h3>
+          <ul class="fichas"><li>Power BI (DAX, KPIs)</li><li>Excel avanzado</li><li>pandas</li><li>NumPy</li><li>R</li><li>Visualización de datos</li></ul>
+        </div>
+        <div class="competencia aparece">
+          <div class="competencia__icono"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17c3 0 4-10 9-10s6 10 9 10"/><path d="M12 7v13"/></svg></div>
+          <h3>Estadística aplicada</h3>
+          <ul class="fichas"><li>Patrones y tendencias</li><li>Comparación entre grupos</li><li>Modelado predictivo</li><li>Impacto de cambios</li><li>Machine learning (scikit-learn)</li></ul>
+        </div>
+        <div class="competencia aparece">
+          <div class="competencia__icono"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
+          <h3>Geoinformación y SIG</h3>
+          <ul class="fichas"><li>PostGIS</li><li>GeoPandas</li><li>Análisis espacial</li><li>Mapas interactivos</li></ul>
+        </div>
+        <div class="competencia aparece">
+          <div class="competencia__icono"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a5 5 0 0 1-.6-10A6 6 0 0 1 18 9a4.5 4.5 0 0 1-.5 9z"/></svg></div>
+          <h3>Nube y herramientas</h3>
+          <ul class="fichas"><li>AWS (S3, RDS, EC2)</li><li>Docker</li><li>Git</li><li>GitHub Actions</li><li>pytest</li><li>Microsoft Office</li></ul>
+        </div>
+        <div class="competencia aparece">
+          <div class="competencia__icono"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5M14 4l-4 16"/></svg></div>
+          <h3>Desarrollo web</h3>
+          <ul class="fichas"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>FastAPI</li><li>Streamlit</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacion" class="seccion">
+      <div class="seccion__cabecera">
+        <p class="sobretitulo">Educación y formación</p>
+        <h2>Dónde me he formado.</h2>
+      </div>
+      <ol class="linea-tiempo">
+        <li class="aparece">
+          <span class="linea-tiempo__fecha">2024 - hoy</span>
+          <div class="linea-tiempo__tarjeta">
+            <span class="insignia insignia--activa">En curso | 7.º semestre</span>
+            <h3>Ingeniería de Datos y Software</h3>
+            <p>Universidad de San Buenaventura, Medellín</p>
+          </div>
+        </li>
+        <li class="aparece">
+          <span class="linea-tiempo__fecha">2026</span>
+          <div class="linea-tiempo__tarjeta">
+            <span class="insignia">Certificación</span>
+            <h3>AWS Academy Graduate</h3>
+            <p>Amazon Web Services</p>
+            <ul class="fichas fichas--claras"><li>Cloud Foundations</li><li>Machine Learning Foundations</li><li>Generative AI Foundations</li></ul>
+          </div>
+        </li>
+        <li class="aparece">
+          <span class="linea-tiempo__fecha">2025</span>
+          <div class="linea-tiempo__tarjeta">
+            <span class="insignia">Internacional</span>
+            <h3>Proyecto de colaboración internacional COIL</h3>
+            <p>Universidad Veracruzana (México), en línea</p>
+          </div>
+        </li>
+        <li class="aparece">
+          <span class="linea-tiempo__fecha">2023</span>
+          <div class="linea-tiempo__tarjeta">
+            <h3>Bachiller Académico</h3>
+            <p>I.E. Concejo de Bello</p>
+          </div>
+        </li>
+      </ol>
+
+      <div class="idiomas aparece">
+        <h3>Idiomas</h3>
+        <ul class="idiomas__lista">
+          <li><strong>Español</strong><span>Nativo</span></li>
+          <li><strong>Inglés</strong><span>Intermedio</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion">
+      <div class="cierre aparece">
+        <p class="sobretitulo">Contacto</p>
+        <h2>¿Hablamos?</h2>
+        <p>Disponibilidad inmediata para cargos de ingeniería o análisis de datos.</p>
+        <div class="botones">
+          <a class="boton boton--principal" href="https://wa.me/573052111480" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+          <a class="boton" href="mailto:jnc.alvarez19@gmail.com">Enviar correo</a>
+          <a class="boton" href="https://www.linkedin.com/in/juanalvarezgh" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="boton" href="Juan-Carlos-Alvarez-Arias-Hoja-de-Vida.pdf" download>Descargar hoja de vida</a>
+        </div>
+        <ul class="cierre__datos">
+          <li><span>Correo</span>jnc.alvarez19@gmail.com</li>
+          <li><span>Teléfono</span>+57 305 211 1480</li>
+          <li><span>LinkedIn</span>linkedin.com/in/juanalvarezgh</li>
+          <li><span>GitHub</span>github.com/JuanAlvarezgh</li>
+        </ul>
+      </div>
+      <p class="pie">Juan Carlos Álvarez Arias | Medellín, Colombia</p>
+    </section>
+
+  </main>
+</div>
+
+<dialog class="visor" aria-label="Imagen ampliada">
+  <button class="visor__cerrar" type="button" aria-label="Cerrar">×</button>
+  <img alt="">
+</dialog>
+
+</body>
+</html>
